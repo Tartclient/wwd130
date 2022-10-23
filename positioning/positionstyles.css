@@ -2,7 +2,10 @@
 /* Activity 1 styles */
 .content1 {
   /* This is the parent of the activity 1 boxes. */
-
+  grid-template-columns: 100px 50px 100px;
+  grid-template-rows: 80px auto 80px; 
+  column-gap: 10px;
+  row-gap: 15px;
 }
 .red1 { 
   width: 100%; 
