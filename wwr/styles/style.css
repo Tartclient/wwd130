@@ -23,6 +23,7 @@ nav a:hover {
 .home-tittle {
     font-family: "Rock Salt";
     font-size: 2em;
+    margin-top: 10px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -64,7 +65,9 @@ main section{
     color: #fcfbfb;
     text-decoration: none;
     font-size: 18px;
-    padding 15px 30px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #DDA15E;
@@ -73,11 +76,22 @@ main section{
 h2 {
     margin: 0;
 }
+main section img {
+    box-sizing: border-box;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+    box-sizing: border-box;
+    
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
 .msg {
     background-color: #606C38;
     color: #fcfbfb;
     line-height: 1.5em;
-    padding 35px;
+    padding: 35px;
 }
 .msg h2 {
     color: #fcfbfb; 
@@ -98,6 +112,7 @@ footer a:hover {
 footer a {
     color: #DDA15E;
     text-decoration: none; /*'none' deletes the underline for the links and 'underlines' adds them */
+    margin-top: 200px;
 }
 footer p {
     font-size: 1.2em;
