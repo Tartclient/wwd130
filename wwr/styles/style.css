@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
 
 #content {
-    max-width: 1600px;
+    max-width: 1900px;
     margin: 0 auto;    
 }
 .logo {
@@ -20,7 +20,7 @@ nav a:hover {
     background-color: #DDA15E;
     color: #fcfbfb;
 }
-.home-tittle {
+.home-title {
     font-family: "Rock Salt";
     font-size: 2em;
     margin-top: 10px;
@@ -82,7 +82,6 @@ main section img {
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
     box-sizing: border-box;
-    
 }
 .card-img {
     border: 10px solid #d9c2a3;
