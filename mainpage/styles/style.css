@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+body {
+    text-align: center;
+    font-family: "Roboto";
+}
+nav {
+    background-color: black;
+    font-size: 20px;
+    padding: 15px 30px;
+    margin-top: 50px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}
+#ownersname {
+    font-size: 2em;
+}
+.home-title {
+    font-size: 80px;
+    margin-top: 50px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:100px;
+    background:#ccc;
+}
