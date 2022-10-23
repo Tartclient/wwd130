@@ -91,6 +91,7 @@ main section img {
     color: #fcfbfb;
     line-height: 1.5em;
     padding: 35px;
+    margin-bottom: 8em;
 }
 .msg h2 {
     color: #fcfbfb; 
@@ -103,6 +104,7 @@ footer {
     background-color: #606C38;
     color: #DDA15E;
     padding: 25px 50px;
+    margin-top: 8em;
 }
 footer a:hover {
     background-color: #DDA15E;
