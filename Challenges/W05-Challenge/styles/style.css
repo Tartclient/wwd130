@@ -1,3 +1,29 @@
+*/* { 
+    margin: 0;
+    padding: 0;
+}  this is the universal selector anything isnide the page will be selected and modified*/
 body {
-    
+    margin: 0;
+}
+#title{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    object-fit: cover;
+}
+.bottom {
+    background-color: #737373;
+    object-fit: cover;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rounded-img {
+    border-radius: 100%;
+    border: 1em solid #444444;
+    border-width: 1em;
+    width: 15%;
+    height: 15%;
+    margin: 5%;
 }
