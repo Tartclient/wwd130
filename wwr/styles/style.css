@@ -16,7 +16,7 @@ header {
     background-color:#606C38;
     display: grid;
     grid-template-columns: 150px auto;
-    background: rgba(131, 135, 0, 0.5);
+    background: rgba(34, 35, 0, 0.5);
 }
 nav {
     display: flex;
