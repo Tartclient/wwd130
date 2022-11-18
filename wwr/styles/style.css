@@ -64,6 +64,9 @@ nav a:hover {
 .button-box {
     text-align: center;
 }
+#contact-message { 
+    color: black;
+}
 main section {
     text-align: center;
 }
