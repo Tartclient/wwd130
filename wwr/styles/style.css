@@ -64,7 +64,7 @@ nav a:hover {
 .button-box {
     text-align: center;
 }
-#contact-message { 
+#contact-message { /*id is not working since it is not changing the h4 to black, don't have time to fox yet*/
     color: black;
 }
 main section {
@@ -192,7 +192,7 @@ footer p a:hover {
 footer .social img {
     padding-top: 15px;
 }
-#contact-form{
+#contact-form{ /* this is not working, it is using the grid from main and not the ned one for this class*/
     display: grid;
     grid-template-columns: repeat(10);
     grid-column: 4/8;
