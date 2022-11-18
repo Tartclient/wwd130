@@ -190,7 +190,9 @@ footer .social img {
     padding-top: 15px;
 }
 .contactus-grid {
-    
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 form {
 /* Center the form on the page */
