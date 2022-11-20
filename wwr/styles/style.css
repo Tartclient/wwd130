@@ -137,18 +137,6 @@ main section img {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #606C38;
 }
-.card-img {
-    border: 10px solid #d9c2a3;
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #606C38;
-}
-.card-img, .mountains {
-    width: 100%;
-}
-.card-img:hover {
-    opacity: .6;
-    transform: scale(1.1);
-}
 .msg {
     background-color: #606C38;
     color: #fcfbfb;

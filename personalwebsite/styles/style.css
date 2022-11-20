@@ -101,9 +101,25 @@ body {
 main {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
 }
 main section{
     text-align: center;
+}
+.beach-card {
+    color: var(--headline-color-on-color);
+    grid-column: 3/9;
+    grid-row: 2/4;
+}
+.blog1-card {
+    color: var(--headline-color-on-color);
+    grid-column: 3/9;
+    grid-row: 4/7;
+}
+.blog2-card {
+    color: var(--headline-color-on-color);
+    grid-column: 3/9;
+    grid-row: 8/10;
 }
 footer {
     background-color: var(--accent2-color);
