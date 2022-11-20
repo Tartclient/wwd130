@@ -120,8 +120,9 @@ main section{
 .blog2-card {
     color: var(--headline-color-on-color);
     grid-column: 3/9;
-    grid-row: 8/10;
+    grid-row: 7/9;
 }
+/* this part is mainly for the blog pages and the beaches subpages*/
 .blog-tittle{
     font-family: 'Poppins', bold, sans-serif;
     color: var(--headline-color-on-color);
@@ -129,7 +130,6 @@ main section{
 }
 .top-blog-img {
     margin: 200px 0;
-
 }
 .blog-post {
     font-family: 'Lexend', medium light, sans-serif;
@@ -137,6 +137,18 @@ main section{
     text-align: justify;
     grid-column: 4/8;
     grid-row: 2/8;
+}
+.post-card {
+    grid-column: 4/8;
+    grid-row: 2/4;
+}
+.post2-card {
+    grid-column: 4/8;
+    grid-row: 5/7;
+}
+.post3-card {
+    grid-column: 4/8;
+    grid-row: 8/10;
 }
 footer {
     background-color: var(--accent2-color);
@@ -163,3 +175,88 @@ footer .social img {
     padding-top: 15px;
     padding: 15px;
 }
+/*this part below is only the form, anything above to the next comment is for subpages or extra stuff
+*/
+#contact-form{ /* this is not working, it is using the grid from main and not the ned one for this class*/
+    display: grid;
+    grid-template-columns: repeat(10);
+    grid-column: 4/8;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+form {
+/* Center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none; 
+}
+form li + li {
+    margin-top: 1em;
+}  
+label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}  
+input,
+textarea {
+    /* To make sure that all text fields have the same font settings
+        By default, textareas have a monospace font */
+    font: 1em sans-serif;
+      
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+      
+    /* Match form field borders */
+    border: 1px solid #999;
+}  
+input:focus,
+textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+}
+      
+textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+      
+    /* Provide space to type some text */
+    height: 5em;
+}  
+.button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+        
+}  
+button {
+    /* This extra margin represent roughly the same space as the space
+    between the labels and their text fields */
+    margin-left: 0.5em;
+}
+    /*end of form style*/
