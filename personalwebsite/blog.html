@@ -4,31 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Baja Sand | Blog</title>
+    <title>Personal Website</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+    <div id="content">
     <header>
-        <h1 class="main-tittle">BAJA SAND</h1>
+        <a id="logo_link" href="index.html"> <!-- <a> makes an image and element making it clickable, sending us to the index.html-->
+            <img class='logo' src="images/logo-bajasand/logo_white.png" alt="Baja Sand Logo">
+        </a>
+        <nav>
+        <!--<a href="https://youtu.be/mqrjoF2ZTm8">Elevator pitch</a>
+            <a href="site-plan.html">Site Plan</a>-->
+            <a href="index.html">Home</a>
+            <a href="blog.html">Blog</a>
+            <a href="beaches.html">Beaches</a>
+        </nav>
     </header>
-    <nav>
-        <a href="https://youtu.be/mqrjoF2ZTm8">Elevator pitch</a>
-        <a href="site-plan.html">Site Plan</a>
-        <a href="index.html">Home</a>
-        <a href="blog.html">Blog</a>
-        <a href="beaches.html">Beaches</a>
-    </nav>
-    <main>
-        <h1>WELCOME TO BAJA CALIFORNIA SUR</h1>
-        <p>visit Baja and all the beautiful beaches it has to offer.</p>
+    <div id="top-page">
+        <div id="top-box">
+            <img id="top-img" src="images/truck.jpg" alt="Sunset Boat">
+        </div>
+        <section id="top-msg">
+            <h1 class='home-title'>BLOG</h1>
+            <h4>Enjoy our blogs every week</h4>
+        </section>       
+    </div>
+    <main class="home-grid">
+        <section class='blog-card'>
+            <img class='bigcard-img' src="images/resized/beach.jpg" alt="truck horizon">
+            <h3>10 Things to bring to the beach</h3>
+            <p>Nothing quite says summer like the sound of the ocean nearby, the scent of sunscreen on the breeze, and all of your beach essentials on hand for a day of sun and fun.</p>
+            <img class='icon' src="images/resized/plus.png" alt="plus icon">
+        </section>        
+        <section class='blog2-card'>
+            <img class='bigcard-img' src="images/resized/arco.jpg" alt="arco de los cabos">
+            <h3>Baja California Sur</h3>
+            <p>officially the Free and Sovereign State of Baja California Sur, one of the regions with the lowest rainfall in the world</p>
+            <img class='icon' src="images/resized/plus.png" alt="plus icon">
+        </section>
     </main>
     <footer>
-        <div class="footer">
-            <p>my website 2022</p>
-            <a href="https://tartclient.github.io/wwd130">
-                <P id="home-button">WDD130 Web Projects</P>
+        <p>Baja Sand &copy; 2022 - Enrique Arias</p>
+        <p><a href="site-plan.html">Site Plan</a></p>
+        <p><a href="#">Contact Us</a></p>        
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/socia-logo/facebook.png" alt="fb icon">
             </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/socia-logo/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/socia-logo/instagram.png" alt="instagram icon">
+            </a>
+            <!--<a href="https://www.flaticon.com/free-icons/add" title="add icons">Add icons created by Pixel perfect - Flaticon</a>-->
         </div>
     </footer>
+    </div>
 </body>
 </html>
