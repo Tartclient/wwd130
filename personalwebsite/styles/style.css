@@ -114,7 +114,7 @@ main section{
 .blog1-card {
     color: var(--headline-color-on-color);
     grid-column: 3/9;
-    grid-row: 4/7;
+    grid-row: 5/7;
 }
 .blog2-card {
     color: var(--headline-color-on-color);
