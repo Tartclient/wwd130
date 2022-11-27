@@ -179,7 +179,7 @@ footer .social img {
 */
 #contact-form { /* this is not working, it is using the grid from main and not the ned one for this class*/
     display: grid;
-    grid-template-columns: repeat(10);
+    grid-template-columns: repeat(10, 1fr);
     grid-column: 4/8;
     grid-row: 1/2;
     margin-top: 100px;
