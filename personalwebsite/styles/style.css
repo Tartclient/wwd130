@@ -104,7 +104,7 @@ main {
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(10, 1fr);
 }
-main section{
+main section {
     text-align: center;
 }
 .beach-card {
@@ -177,7 +177,7 @@ footer .social img {
 }
 /*this part below is only the form, anything above to the next comment is for subpages or extra stuff
 */
-#contact-form{ /* this is not working, it is using the grid from main and not the ned one for this class*/
+#contact-form { /* this is not working, it is using the grid from main and not the ned one for this class*/
     display: grid;
     grid-template-columns: repeat(10);
     grid-column: 4/8;
