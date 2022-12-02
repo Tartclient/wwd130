@@ -45,13 +45,15 @@ header {
 }
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: left;
+    margin-left: 5%;
 }
 nav a {
     text-align: center;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 35px;
+
 }
 nav a:hover {
     background-color: var(--nav-hover-background-color);
@@ -177,12 +179,14 @@ footer .social img {
 }
 /*this part below is only the form, anything above to the next comment is for subpages or extra stuff
 */
-#contact-form { /* this is not working, it is using the grid from main and not the ned one for this class*/
+#contactus-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
+}
+#contact-form { /* this is not working, it is using the grid from main and not the ned one for this class*/
     grid-column: 4/8;
     grid-row: 1/2;
-    margin-top: 100px;
+    margin-top: 5px;
 }
 #feedback {
     background-color: antiquewhite;
