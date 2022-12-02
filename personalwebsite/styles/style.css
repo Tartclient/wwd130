@@ -46,7 +46,7 @@ header {
 nav {
     display: flex;
     justify-content: left;
-    margin-left: 5%;
+    margin-left: 10%;
 }
 nav a {
     text-align: center;
