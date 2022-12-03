@@ -103,10 +103,10 @@ main {
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(10, 1fr);
 }
-main section {
-    text-align: center;
+.post-grid {
+    color: var(--secondary-color);
 }
-.beach-card {
+.blog-card {
     color: var(--headline-color-on-color);
     grid-column: 3/9;
     grid-row: 2/4;
@@ -121,26 +121,30 @@ main section {
     grid-column: 3/9;
     grid-row: 7/9;
 }
-/* this part is mainly for the blog pages and the beaches subpages*/
+/* this part is mainly for the blog pages and the beaches subpages
+anything for the index or main child pages goes above this lines
+*/
 .blog-tittle{
     font-family: 'Poppins', bold, sans-serif;
     color: var(--headline-color-on-color);
     font-size: 3em;
-    margin-top: 80px;
+    margin: 60px 0;
 }
 .Blog-subtitle {
     font-family: 'Poppins', bold, sans-serif;
     color: var(--headline-color-on-color);
 }
-.top-blog-img {
-    margin: 60px 0;
+.top-blog-img img{
+    width: 600px;
+    height: 400px;
+    justify-content: center;
 }
 .blog-post {
     font-family: 'Lexend', medium light, sans-serif;
     color: var(--headline-color-on-color);
     text-align: justify;
     grid-column: 4/8;
-    grid-row: 2/8;
+    grid-row: 1/8;
 }
 .post-card {
     grid-column: 4/8;
@@ -153,6 +157,9 @@ main section {
 .post3-card {
     grid-column: 4/8;
     grid-row: 8/10;
+}
+.blog-post-grid{
+    margin: 60px auto;
 }
 footer {
     background-color: var(--accent2-color);
