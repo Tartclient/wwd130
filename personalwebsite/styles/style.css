@@ -129,9 +129,14 @@ main section {
     font-family: 'Poppins', bold, sans-serif;
     color: var(--headline-color-on-color);
     font-size: 3em;
+    margin-top: 100px;
+}
+.Blog-subtitle {
+    font-family: 'Poppins', bold, sans-serif;
+    color: var(--headline-color-on-color);
 }
 .top-blog-img {
-    margin: 200px 0;
+    margin: 100px 0;
 }
 .blog-post {
     font-family: 'Lexend', medium light, sans-serif;
